@@ -16,3 +16,6 @@ def test_valid_login(setup, username, password):
     welcome_text = lp.get_welcome_text()
 
     assert username in welcome_text, "Login failed — Welcome text not found"
+
+
+    #test completed#  #test completed#
