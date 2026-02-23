@@ -1,5 +1,5 @@
 import pytest
-from Pages.Login_page import LoginPage
+from DEMO_BLAZE.Pages.Login_page import LoginPage
 import time
 
 @pytest.mark.parametrize("username,password", [("Jeeshan1718", "kohli@1718")])
@@ -19,3 +19,4 @@ def test_valid_login(setup, username, password):
 
 
     #test completed#  #test completed#
+#dhajoskdaskjdskdkjoaod
